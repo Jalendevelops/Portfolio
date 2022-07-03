@@ -48,3 +48,30 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+/* End of css reset */
+
+
+.header-name {
+  height: 50%;
+  width: auto;
+  text-align: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
