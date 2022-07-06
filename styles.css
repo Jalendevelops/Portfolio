@@ -52,15 +52,18 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 .header-name {
-  max-height: 20%;
-  width: auto;
-  text-align: center;
-  color: grey;
+  color: blue;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  
 }
 
 .navbar {
-  position: sticky;
-  top: 0;
+  
 }
 
 .nav-link {
@@ -89,9 +92,33 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   background-color: black;
+  position: sticky;
+  top: 0;
 }
 
 .github {
   color: white;
   background-color: black;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.main-container h4 {
+  color: grey;
+}
+
+.main-container h2 {
+  color: white;
+}
+
+.phone {
+  max-height: 400px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
