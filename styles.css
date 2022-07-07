@@ -66,20 +66,26 @@ p, h1, h2, h3, h4, h5, h6 {
   
 }
 
-.nav-link {
+.nav-menu-link {
   color: white;
 }
 
-.nav-link:hover {
+.nav-menu-link:hover {
   color: dodgerblue;
 }
 
-.nav-link:link {
+.nav-menu-link:link {
   text-decoration: none;
 }
 
 .nav-menu {
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-item {
+  padding: 0 12px;
 }
 
 .container {
@@ -90,13 +96,14 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: black;
   position: sticky;
   top: 0;
 }
 
-.github {
+.social-btn {
   color: white;
   background-color: black;
 }
