@@ -25,6 +25,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: black;
 }
 /*
   6. Improve media defaults
@@ -80,6 +81,7 @@ h6 {
 .nav-menu-link {
   color: white;
   font-family: Sans-Serif;
+  font-size: 1.1rem;
 }
 
 .nav-menu-link:hover {
@@ -136,16 +138,18 @@ h6 {
   flex-direction: column;
   background-color: black;
   color: white;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .main-container h4 {
   color: grey;
-  padding-left: 50px;
+  padding-left: 48px;
 }
 
 .main-container h2 {
   color: white;
-  padding-left: 50px;
+  padding-left: 48px;
 }
 
 .phone {
@@ -155,13 +159,38 @@ h6 {
   margin-right: auto;
 }
 
+.bio-name {
+  text-align: center;
+  color: #63D2FF;
+  font-size: 7vh;
+  font-family: jost;
+  margin-bottom: 36px;
+  margin-top: 36px;
+}
+
 .bio {
   text-align: center;
-  color: #008081;
-  font-size: 5vh;
-  font-family: jost;
+  margin-bottom: 24px;
+  font-size: 125%;
+  font-family: Sans-Serif;
 }
 
 .main-container div {
-  background-color: grey;
+  border-radius: 12px;
+  background-color: #161925;
+  margin-bottom: 48px;
+  width: 90%;
+  max-height: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  color: white;
+}
+
+.bio-container {
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
 }
