@@ -68,7 +68,7 @@ h6 {
 /* End of css reset */
 
 .header-name {
-  color: blue;
+  color: white;
 }
 
 .nav-container {
@@ -79,6 +79,7 @@ h6 {
 
 .nav-menu-link {
   color: white;
+  font-family: Sans-Serif;
 }
 
 .nav-menu-link:hover {
@@ -122,6 +123,10 @@ h6 {
   background-color: black;
 }
 
+.social-btn-link:not(:last-child) {
+  margin-right: 12px;
+}
+
 .social-buttons-container {
   display: flex;
 }
@@ -135,15 +140,28 @@ h6 {
 
 .main-container h4 {
   color: grey;
+  padding-left: 50px;
 }
 
 .main-container h2 {
   color: white;
+  padding-left: 50px;
 }
 
 .phone {
-  max-height: 400px;
+  height: 100vh;
   width: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bio {
+  text-align: center;
+  color: #008081;
+  font-size: 5vh;
+  font-family: jost;
+}
+
+.main-container div {
+  background-color: grey;
 }
