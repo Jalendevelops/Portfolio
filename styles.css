@@ -123,6 +123,9 @@ h6 {
 .social-btn {
   color: white;
   background-color: black;
+  padding: 2px 28px;
+  border: 2px;
+  font-size: 1.1rem;
 }
 
 .social-btn-link:not(:last-child) {
@@ -161,7 +164,7 @@ h6 {
 
 .bio-name {
   text-align: center;
-  color: #63D2FF;
+  color: #EAE0D5;
   font-size: 7vh;
   font-family: jost;
   margin-bottom: 36px;
@@ -175,9 +178,9 @@ h6 {
   font-family: Sans-Serif;
 }
 
-.main-container div {
+.main-container-divs {
   border-radius: 12px;
-  background-color: #161925;
+  background-color: #39393A;
   margin-bottom: 48px;
   width: 90%;
   max-height: 540px;
@@ -193,4 +196,18 @@ footer {
   color: white;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.query-pic {
+  height: auto;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .query img {
+    display: flex;
+
+  }
 }
