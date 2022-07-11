@@ -70,6 +70,11 @@ h6 {
 
 .header-name {
   color: white;
+  font-family: sriracha;
+}
+
+.header-name:hover {
+  color: red;
 }
 
 .nav-container {
@@ -157,7 +162,7 @@ h6 {
 }
 
 .phone {
-  height: 100vh;
+  height: 70vh;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -180,13 +185,45 @@ h6 {
 }
 
 .main-container-sections {
+  position: relative;
   border-radius: 12px;
   background-color: #39393A;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
   width: 90%;
   max-height: 540px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.overlay {
+  border-radius: 12px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #22333B;
+}
+
+.text {
+  font-family: jost;
+  color: #EAE0D5;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-container-sections:hover .overlay {
+  opacity: 1;
 }
 
 footer {
@@ -199,7 +236,7 @@ footer {
   margin: 0 auto;
 }
 
-.query-pic {
+.author-img {
   height: auto;
   width: 25%;
   margin-left: auto;
