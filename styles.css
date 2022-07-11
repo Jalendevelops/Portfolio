@@ -25,7 +25,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: black;
+  background-color: #0A0908;
 }
 /*
   6. Improve media defaults
@@ -108,7 +108,7 @@ h6 {
 }
 
 .header {
-  background-color: black;
+  background-color: #0A0908;
   position: sticky;
   top: 0;
 }
@@ -122,7 +122,7 @@ h6 {
 
 .social-btn {
   color: white;
-  background-color: black;
+  background-color: #0A0908;
   padding: 2px 28px;
   border: 2px;
   font-size: 1.1rem;
@@ -139,10 +139,11 @@ h6 {
 .main-container {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #0A0908;
   color: white;
   max-width: 960px;
   margin: 0 auto;
+  
 }
 
 .main-container h4 {
@@ -162,7 +163,7 @@ h6 {
   margin-right: auto;
 }
 
-.bio-name {
+.author {
   text-align: center;
   color: #EAE0D5;
   font-size: 7vh;
@@ -178,7 +179,7 @@ h6 {
   font-family: Sans-Serif;
 }
 
-.main-container-divs {
+.main-container-sections {
   border-radius: 12px;
   background-color: #39393A;
   margin-bottom: 48px;
@@ -205,9 +206,16 @@ footer {
   margin-right: auto;
 }
 
-@media screen and (max-width: 600px) {
-  .query img {
-    display: flex;
+.author-section {
+  margin-bottom: 48px;
+}
 
+@media screen and (max-width: 600px) {
+  .author-section {
+    display: flex;
   }
+}
+
+.footer-p {
+  text-align: center;
 }
