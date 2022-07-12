@@ -68,13 +68,19 @@ h6 {
 }
 /* End of css reset */
 
-.header-name {
+ul {
+  padding: 0;
+}
+
+.header-logo {
   color: white;
   font-family: sriracha;
+  font-size: 28px;
+  text-decoration: none;
 }
 
 .header-name:hover {
-  color: red;
+  
 }
 
 .nav-container {
@@ -132,6 +138,7 @@ h6 {
   padding: 2px 28px;
   border: 2px;
   font-size: 1.1rem;
+  width: 160px;
 }
 
 .social-btn-link:not(:last-child) {
@@ -140,6 +147,14 @@ h6 {
 
 .social-buttons-container {
   display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    margin-bottom: 4px;
+  }
 }
 
 .main-container {
@@ -154,16 +169,16 @@ h6 {
 
 .main-container h4 {
   color: grey;
-  padding-left: 48px;
+  padding-left: 20px;
 }
 
 .main-container h2 {
   color: white;
-  padding-left: 48px;
+  padding-left: 20px;
 }
 
 .phone {
-  height: 65vh;
+  height: 360px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -195,6 +210,7 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   transition: all .3s ease;
+  padding: 28px;
 }
 
 .overlay {
@@ -211,7 +227,7 @@ h6 {
   background-color: #22333B;
 }
 
-.text {
+.overlay-text {
   font-family: jost;
   color: #EAE0D5;
   font-size: 20px;
@@ -252,12 +268,6 @@ footer {
 .author-section {
   margin-bottom: 48px;
   position: relative;
-}
-
-@media screen and (max-width: 600px) {
-  .author-section {
-    display: flex;
-  }
 }
 
 .footer-p {
