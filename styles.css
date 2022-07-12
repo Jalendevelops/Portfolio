@@ -116,6 +116,7 @@ h6 {
   background-color: #0A0908;
   position: sticky;
   top: 0;
+  z-index: 99;
 }
 
 .header-container {
@@ -148,7 +149,7 @@ h6 {
   color: white;
   max-width: 960px;
   margin: 0 auto;
-  
+
 }
 
 .main-container h4 {
@@ -193,6 +194,7 @@ h6 {
   max-height: 540px;
   margin-left: auto;
   margin-right: auto;
+  transition: all .3s ease;
 }
 
 .overlay {
@@ -249,6 +251,7 @@ footer {
 
 .author-section {
   margin-bottom: 48px;
+  position: relative;
 }
 
 @media screen and (max-width: 600px) {
