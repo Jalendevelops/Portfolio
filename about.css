@@ -164,6 +164,10 @@ ul {
     flex-direction: column;
     align-items: center;
   }
+  .lang-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .main-container {
@@ -175,16 +179,18 @@ ul {
 
 .main-container h2 {
   font-size: 1.7rem;
+  padding: 16px;
 }
 
 .main-container h3 {
-  padding: 16px;
+  padding: 8px;
 }
 
 
 .lang-container {
   display: flex;
-  justify-content: space-evenly;
+  padding: 16px;
+  justify-content: space-between;
 }
 
 .main-container img {
