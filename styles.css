@@ -79,9 +79,7 @@ ul {
   text-decoration: none;
 }
 
-.header-name:hover {
-  
-}
+.header-name:hover {}
 
 .nav-container {
   display: flex;
@@ -138,7 +136,6 @@ ul {
   padding: 2px 28px;
   border: 2px;
   font-size: 1.1rem;
-  width: 160px;
 }
 
 .social-btn-link:not(:last-child) {
@@ -148,12 +145,22 @@ ul {
 .social-buttons-container {
   display: flex;
   justify-content: center;
+  width: 160px;
 }
 
 @media screen and (max-width: 600px) {
   .header-container {
     flex-direction: column;
     margin-bottom: 4px;
+  }
+  header-logo {
+    margin-bottom: 8px;
+  }
+  nav-menu {
+    margin-bottom: 12px;
+  }
+  author {
+    font-size: 48px;
   }
 }
 
@@ -187,7 +194,7 @@ ul {
 .author {
   text-align: center;
   color: #EAE0D5;
-  font-size: 7vh;
+  font-size: 56px;
   font-family: jost;
   margin-bottom: 36px;
   margin-top: 36px;
@@ -211,6 +218,7 @@ ul {
   margin-right: auto;
   transition: all .3s ease;
   padding: 28px;
+  cursor: pointer;
 }
 
 .overlay {
@@ -259,8 +267,7 @@ footer {
 }
 
 .author-img {
-  height: auto;
-  width: 25%;
+  height: 360px;
   margin-left: auto;
   margin-right: auto;
 }
