@@ -159,7 +159,35 @@ ul {
   nav-menu {
     margin-bottom: 12px;
   }
-  author {
-    font-size: 48px;
+  .main-container {
+    display: flex;
+    flex-direction: column;
   }
+}
+
+.main-container {
+  color: white;
+  font-family: jost;
+  text-align: center;
+  display: flex;
+  padding: 80px;
+}
+
+.main-container h2 {
+  font-size: 1.7rem;
+}
+
+.main-container h3 {
+  padding: 16px;
+}
+
+
+.lang-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  height: auto;
+  width: 50%;
 }
