@@ -162,6 +162,7 @@ ul {
   .main-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -170,7 +171,6 @@ ul {
   font-family: jost;
   text-align: center;
   display: flex;
-  padding: 80px;
 }
 
 .main-container h2 {
@@ -187,7 +187,8 @@ ul {
   justify-content: space-evenly;
 }
 
-img {
+.main-container img {
   height: auto;
   width: 50%;
+  padding: 32px;
 }
