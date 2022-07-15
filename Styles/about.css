@@ -168,7 +168,7 @@ ul {
     flex-direction: column;
     align-items: center;
   }
-  .lang-container {
+  .icon-container {
     display: flex;
     flex-direction: column;
   }
@@ -179,6 +179,7 @@ ul {
   font-family: jost;
   text-align: center;
   display: flex;
+  max-width: 1200px;
 }
 
 .main-container h2 {
@@ -191,14 +192,14 @@ ul {
 }
 
 
-.lang-container {
+.icon-container {
   display: flex;
   padding: 16px;
   justify-content: space-between;
+  margin-right: 4px;
 }
 
 .main-container img {
-  height: 600px;
-  width: 50%;
+  height: 360px;
   padding: 32px;
 }
