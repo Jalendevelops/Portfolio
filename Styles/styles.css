@@ -256,10 +256,6 @@ ul {
   opacity: 1;
 }
 
-footer {
-  color: white;
-}
-
 .bio-container {
   color: white;
   max-width: 1200px;
@@ -278,5 +274,5 @@ footer {
 }
 
 .footer-p {
-  text-align: center;
+  background-color: red;
 }
