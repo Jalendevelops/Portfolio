@@ -118,9 +118,10 @@ ul {
 
 .header {
   background-color: #0A0908;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 99;
+  width: 100%;
 }
 
 .header-container {
@@ -171,6 +172,7 @@ ul {
   color: white;
   max-width: 960px;
   margin: 0 auto;
+  padding-top: 78px;
 
 }
 
@@ -274,5 +276,13 @@ ul {
 }
 
 .footer-p {
-  background-color: red;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-family: sriracha;
+}
+
+.footer-span:hover {
+  text-decoration: underline;
+  text-decoration-color: tan;
 }
