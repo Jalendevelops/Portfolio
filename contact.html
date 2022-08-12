@@ -9,51 +9,55 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/reset.css" type="text/css" />
     <link rel="stylesheet" href="./styles/contact.css" />
     <title>Boilerplate</title>
     <link rel="only_styles.css" />
   </head>
-  <header class="header">
-    <div class="container">
-      <div class="header-container">
-        <a href="index.html" class="header-logo">Jalen Garcia</a>
-        <nav>
-          <ul class="nav-menu">
-            <li class="nav-menu-item">
-              <a href="about.html" class="nav-menu-link">About</a>
-            </li>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <a href="index.html" class="header-logo">Jalen Garcia</a>
+          <nav>
+            <ul class="nav-menu">
+              <li class="nav-menu-item">
+                <a href="about.html" class="nav-menu-link">About</a>
+              </li>
 
-            <li class="nav-menu-item">
-              <a href="contact.html" class="nav-menu-link">Contact</a>
-            </li>
+              <li class="nav-menu-item">
+                <a href="contact.html" class="nav-menu-link">Contact</a>
+              </li>
 
-            <li class="nav-menu-item">
-              <a href="portfolio.html" class="nav-menu-link">Portfolio</a>
-            </li>
-          </ul>
-        </nav>
+              <li class="nav-menu-item">
+                <a href="portfolio.html" class="nav-menu-link">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
 
-        <div class="social-buttons-container">
-          <a class="social-btn" href="https://github.com/jalendevelops">
-            <i class="fa-brands fa-github"></i>
-          </a>
+          <div class="social-buttons-container">
+            <a class="social-btn" href="https://github.com/jalendevelops">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <form id="contact-form">
-        <label for="user-email">Email</label>
-        <input type="email" name="email" id="user-email" />
+    </header>
+    <main>
+      <h1 class="contact-heading">Contact Us</h1>
+      <div class="container">
+        <form id="contact-form">
+          <label for="user-email">Email</label>
+          <input type="email" name="email" id="user-email" />
 
-        <label for="user-message">Message</label>
-        <textarea id="user-message" name="message"></textarea>
+          <label for="user-message">Message</label>
+          <textarea id="user-message" name="message" rows="5"></textarea>
 
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-  </main>
-  <footer></footer>
-  <script src="./scripts/contact.js"></script>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./scripts/contact.js"></script>
+  </body>
 </html>
