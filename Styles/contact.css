@@ -81,22 +81,6 @@ ul {
   width: 160px;
 }
 
-@media screen and (max-width: 600px) {
-  .header-container {
-    flex-direction: column;
-    margin-bottom: 4px;
-  }
-  header-logo {
-    margin-bottom: 8px;
-  }
-  nav-menu {
-    margin-bottom: 12px;
-  }
-  author {
-    font-size: 48px;
-  }
-}
-
 body {
   font-family: "Lato", sans-serif;
   color: #333;
@@ -208,4 +192,26 @@ label.light {
 ol,
 ul {
   list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    margin-bottom: 4px;
+  }
+  header-logo {
+    margin-bottom: 8px;
+  }
+  nav-menu {
+    margin-bottom: 12px;
+  }
+  author {
+    font-size: 48px;
+  }
+  form {
+    border: 1px solid transparent;
+  }
+  .container {
+    padding: 16px;
+  }
 }
