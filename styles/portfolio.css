@@ -1,0 +1,97 @@
+ul {
+  padding: 0;
+}
+
+.header-logo {
+  color: white;
+  font-family: sriracha;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.header-name:hover {
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.nav-menu-link {
+  color: white;
+  font-family: Sans-Serif;
+  font-size: 1.1rem;
+}
+
+.nav-menu-link:hover {
+  color: dodgerblue;
+}
+
+.nav-menu-link:link {
+  text-decoration: none;
+}
+
+.nav-menu {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-menu-item {
+  padding: 0 12px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #0a0908;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.social-btn {
+  color: white;
+  background-color: #0a0908;
+  padding: 2px 28px;
+  border: 2px;
+  font-size: 1.1rem;
+}
+
+.social-btn-link:not(:last-child) {
+  margin-right: 12px;
+}
+
+.social-buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    margin-bottom: 4px;
+  }
+  header-logo {
+    margin-bottom: 8px;
+  }
+  nav-menu {
+    margin-bottom: 12px;
+  }
+  author {
+    font-size: 48px;
+  }
+}
