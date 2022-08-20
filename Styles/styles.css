@@ -108,13 +108,25 @@ ul {
   margin-right: auto;
 }
 
-.author {
+.author-section {
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.author-heading {
   text-align: center;
-  color: #eae0d5;
+  color: #fefefe;
   font-size: 56px;
-  font-family: jost;
-  margin-bottom: 36px;
-  margin-top: 36px;
+  font-family: alex brush;
+  margin-bottom: 16px;
+  margin-top: 48px;
+}
+
+.author-img {
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
 }
 
 .bio {
@@ -177,17 +189,6 @@ ul {
   color: white;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.author-img {
-  height: 360px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.author-section {
-  margin-bottom: 48px;
-  position: relative;
 }
 
 .footer-container {

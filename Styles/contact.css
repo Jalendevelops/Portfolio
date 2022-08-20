@@ -88,9 +88,16 @@ body {
 }
 
 .contact-heading {
+  font-family: jost;
   text-align: center;
   margin-top: 36px;
   font-size: 36px;
+}
+
+.contact-p {
+  text-align: center;
+  font-family: jost;
+  font-size: 16px;
 }
 
 form {
