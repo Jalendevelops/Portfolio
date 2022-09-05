@@ -126,14 +126,15 @@ ul {
   height: 360px;
   margin-left: auto;
   margin-right: auto;
-  padding: 16px;
+  padding: 24px;
 }
 
 .bio {
   text-align: center;
-  margin-bottom: 24px;
+  margin-top: 16px;
+  margin-bottom: 8px;
   font-size: 125%;
-  font-family: Sans-Serif;
+  font-family: jost;
 }
 
 .main-container-sections {
@@ -199,7 +200,7 @@ ul {
   text-align: center;
   font-size: 32px;
   color: white;
-  font-family: sriracha;
+  font-family: jost;
   margin-bottom: 16px;
 }
 
@@ -210,7 +211,7 @@ ul {
 
 .contact-btn {
   width: 180px;
-  padding: 16px;
+  padding: 8px 16px;
   background-color: #0f868c;
   margin: 0 auto;
   font-size: 24px;
@@ -220,6 +221,7 @@ ul {
   border-radius: 4px;
   font-weight: 500;
   text-decoration: none;
+  font-family: jost;
 }
 
 @media screen and (max-width: 600px) {

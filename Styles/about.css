@@ -13,8 +13,7 @@ ul {
   text-decoration: none;
 }
 
-.header-name:hover {
-}
+.header-name:hover {}
 
 .nav-container {
   display: flex;
@@ -102,14 +101,16 @@ ul {
   padding: 8px;
 }
 
-.icon-container {
+.responsive {
   display: flex;
-  padding: 16px;
-  justify-content: space-between;
-  width: 60%;
-  margin: 0 auto;
-  font-size: 20px;
-  list-style: none;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.responsive img {
+  height: 100%;
+  width: 100%;
 }
 
 .main-container img {
